@@ -1,6 +1,6 @@
 #eexpss
 
-[gimmick:theme](slat)
+[gimmick:theme](slate)
 
 [系统]()
 

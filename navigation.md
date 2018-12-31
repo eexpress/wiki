@@ -1,7 +1,6 @@
 #eexpss
-![](pic/eexpress-64.png)
 
-[gimmick:theme](flatly)
+[gimmick:theme](slat)
 
 [系统]()
 

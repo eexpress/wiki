@@ -3,6 +3,12 @@
 ## 2017年
 ## 2016年
 ## 2015年-2005年
+```javascript
+var hello = function () {
+    // say hello
+    alert('Hello world!');
+}
+```
 ## 关于本站点
 ![](pic/eexpress-64.png)
 

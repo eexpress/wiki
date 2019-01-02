@@ -1,7 +1,21 @@
+[gimmick:forkmeongithub(color: 'red', position: 'right')](https://github.com/eexpress/wiki)
+
 ## 2019年
+Attention: This text is important.
+
+Note! This is a note.
+
+Hint: This is a hint.
+
+> 标准的注释
+
 ## 2018年
+
+$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 ## 2017年
+
 ## 2016年
+
 ## 2015年-2005年
 ```javascript
 var hello = function () {
@@ -9,8 +23,9 @@ var hello = function () {
     alert('Hello world!');
 }
 ```
+## hexo 老的 blog
+[eexpress.github.com](https://eexpress.github.io)
 ## 关于本站点
-![](pic/eexpress-64.png)
 
 采用`mdwiki`搭建。
 
@@ -24,4 +39,3 @@ var hello = function () {
 - 优点：
 	1. 干净。不和html和js打交道。不像`dokuwiki`或者`tiddlywiki`(单文件结构)。
 	1. 服务器无要求，纯客户端实时渲染。
-

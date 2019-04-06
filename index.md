@@ -2,20 +2,21 @@
 
 ## 2019年
 
+###04
 [vim通用编译函数](blog/2019-04-02-vim动态执行编译.md)
-
 [cairo画图过程分析](blog/2019-04-01-cairo画图过程分析.md)
-
+[本地化vala手册](blog/2019-04-02-本地化vala手册.md)
+### 02
 [新系统安装](blog/2019-02-13-新系统安装.md)
+
+## hexo 老的 blog
+[eexpress.github.com](https://eexpress.github.io)
 
 Attention: 想要去掉node.js了。给我安装一堆乱七八糟的东西，还不知道安装到了哪里。
 
 Note! 文件名前缀使用下划线，是不是很傻的行为？
 
 Hint: hexo还是不方便。mkd文件内带规则就不爽。新建文件没关联软件自动打开编译也不爽。node.js搞更不爽。
-
-## hexo 老的 blog
-[eexpress.github.com](https://eexpress.github.io)
 
 ## 关于本站点
 

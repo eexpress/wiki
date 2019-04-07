@@ -8,6 +8,11 @@
 [vim通用编译函数](blog/2019-04-02-vim动态执行编译.md)
 [cairo画图过程分析](blog/2019-04-01-cairo画图过程分析.md)
 [本地化vala手册](blog/2019-04-02-本地化vala手册.md)
+### 03
+28号启动[cairo-timer](https://github.com/eexpress/cairo-timer) ![](pic/timer.png)
+
+23号启动[showit](https://github.com/eexpress/showit) ![](pic/showit.png)
+
 ### 02
 [新系统安装](blog/2019-02-13-新系统安装.md)
 

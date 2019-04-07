@@ -3,7 +3,8 @@
 ## 2019年
 
 ###04
-[nautilus-git]()
+[手贱一次lvm](blog/2019-04-07-lvm.md)
+[nautilus-git](blog/2019-04-06-nautilus-git扩展.md)
 [vim通用编译函数](blog/2019-04-02-vim动态执行编译.md)
 [cairo画图过程分析](blog/2019-04-01-cairo画图过程分析.md)
 [本地化vala手册](blog/2019-04-02-本地化vala手册.md)

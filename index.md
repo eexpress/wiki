@@ -3,6 +3,7 @@
 ## 2019年
 
 ###04
+- [测试hugo](blog/2019-04-08-测试hugo.md)
 - [手贱一次lvm](blog/2019-04-07-lvm.md)
 - [nautilus-git](blog/2019-04-06-nautilus-git扩展.md)
 - [vim通用编译函数](blog/2019-04-02-vim动态执行编译.md)

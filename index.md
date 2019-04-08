@@ -3,15 +3,19 @@
 ## 2019年
 
 ###04
-[手贱一次lvm](blog/2019-04-07-lvm.md)
-[nautilus-git](blog/2019-04-06-nautilus-git扩展.md)
-[vim通用编译函数](blog/2019-04-02-vim动态执行编译.md)
-[cairo画图过程分析](blog/2019-04-01-cairo画图过程分析.md)
-[本地化vala手册](blog/2019-04-02-本地化vala手册.md)
-### 03
-28号启动[cairo-timer](https://github.com/eexpress/cairo-timer) ![](pic/timer.png)
+- [手贱一次lvm](blog/2019-04-07-lvm.md)
+- [nautilus-git](blog/2019-04-06-nautilus-git扩展.md)
+- [vim通用编译函数](blog/2019-04-02-vim动态执行编译.md)
+- [cairo画图过程分析](blog/2019-04-01-cairo画图过程分析.md)
+- [本地化vala手册](blog/2019-04-02-本地化vala手册.md)
 
-23号启动[showit](https://github.com/eexpress/showit) ![](pic/showit.png)
+### 03
+> 2个vala项目
+
+[cairo-timer](https://github.com/eexpress/cairo-timer)|[showit](https://github.com/eexpress/showit)
+:--:|:--:
+![](pic/timer.png)|![](pic/showit.png)
+03-28 启动|03-23 启动
 
 ### 02
 [新系统安装](blog/2019-02-13-新系统安装.md)

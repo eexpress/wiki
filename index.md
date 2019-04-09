@@ -3,6 +3,7 @@
 ## 2019年
 
 ###04
+- [手动解决包冲突](blog/2019-04-09-包冲突导致游戏不运行.md)
 - [测试hugo](blog/2019-04-08-测试hugo.md)
 - [手贱一次lvm](blog/2019-04-07-lvm.md)
 - [nautilus-git](blog/2019-04-06-nautilus-git扩展.md)

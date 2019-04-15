@@ -6,4 +6,4 @@
 
 [在线编辑](http://prose.io/#eexpress)
 
-![](pic/eexpss-32.png) [gimmick:TwitterFollow](@eexpss)
+![](pic/Awuuu-32.jpg) [gimmick:TwitterFollow](@eexpss)

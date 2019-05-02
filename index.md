@@ -18,7 +18,7 @@
 
 [cairo-timer](https://github.com/eexpress/cairo-timer)|[showit](https://github.com/eexpress/showit)
 :--:|:--:
-![](pic/timer.png)|![](pic/showit.png)
+![](pic/timer.png)![](pic/timer-old.png)|![](pic/showit.png)
 03-28 启动|03-23 启动
 
 ### 02

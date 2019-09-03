@@ -1,6 +1,6 @@
 #eexpss
 
-[gimmick:theme](united)
+[gimmick:theme](slate)
 
 [gimmick:themechooser](选择皮肤)
 

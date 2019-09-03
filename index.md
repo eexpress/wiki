@@ -51,4 +51,6 @@
 - 实际操作
     1. 舒服。虽然索引链接要手动添加。过程相当于写一个文章，再改下index.md，其实都只是markdown的编辑而已。retext工作很好。
     1. 提交就完成，少好多事情啊。不要安装npm的破东西，只差一步ci+push，几乎都不要打开终端了（坐等那懒散的nautilus-git扩展的作者重写他的破py，如果干脆不改进了，一跺脚我就上vala）。
+    1. `python -m SimpleHTTPServer` 本地开一个服务就可以[预览](http://localhost:8000/)。
+    1. Bootswatch 颜色主题：bootstrap,amelia,cerulean,cosmo,cyborg, flatly,journal,readable,simplex,slate,spacelab,united,yeti。
 - 

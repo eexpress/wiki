@@ -2,6 +2,10 @@
 
 ## 2019年
 
+###09
+- [管理copr](blog/2019-09-12-dnf-copr.md)
+- [安装quake3](blog/2019-09-12-quake3.md)
+
 ###05
 - [Switch_Pro手柄](blog/2019-05-04-Switch_Pro手柄.md)
 - [爬小说](blog/2019-05-16-爬虫爬小说.md)

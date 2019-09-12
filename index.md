@@ -39,22 +39,4 @@
 
 ## 关于本站点
 
-采用`mdwiki`搭建。
-
-- 相关文档：
-	- [mdwiki 帮助文档](https://dynalon.github.io/mdwiki/#!tutorials/github.md)
-	- [mdwiki 仓库地址](https://github.com/Dynalon/mdwiki/) !! This project is currently unmaintained!!
-- 缺点：
-	1. 非动态，所以无法搜索内容。有人外挂强行动态管理，但有点不KISS。
-	1. 非动态，只能手动更新索引页面。外挂脚本可能搞定。其实想到一个好处，不想放出来的页面，不写链接即可。
-	1. 没找到自定义css的方法。
-	1. 没有RSS了。不过hexo的rss最近出现混乱，不搞了也好。
-- 优点：
-	1. 干净。不和html和js打交道。不像`dokuwiki`或者`tiddlywiki`(单文件结构，好像现在也和node.js勾搭上了)。
-	1. 服务器无要求，纯客户端实时渲染。
-- 实际操作
-    1. 舒服。虽然索引链接要手动添加。过程相当于写一个文章，再改下index.md，其实都只是markdown的编辑而已。retext工作很好。
-    1. 提交就完成，少好多事情啊。不要安装npm的破东西，只差一步ci+push，几乎都不要打开终端了（坐等那懒散的nautilus-git扩展的作者重写他的破py，如果干脆不改进了，一跺脚我就上vala）。
-    1. `python -m SimpleHTTPServer` 本地开一个服务就可以[预览](http://localhost:8000/)。
-    1. Bootswatch 颜色主题：bootstrap,amelia,cerulean,cosmo,cyborg, flatly,journal,readable,simplex,slate,spacelab,united,yeti。
-- 
+采用`mdwiki`搭建。[MDWiKi说明](blog/2019-01-22-mdwiki.md)

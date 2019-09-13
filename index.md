@@ -40,3 +40,5 @@
 ## 关于本站点
 
 采用`mdwiki`搭建。[MDWiKi说明](blog/2019-01-22-mdwiki.md)
+
+---

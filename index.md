@@ -2,17 +2,20 @@
 
 ## 2019年
 
-###09
+### 11
+- [游戏疑问](blog/2019-11-03-游戏疑问.md)
+
+### 09
 - [csv和xlsx的互换](blog/2019-09-23-csv和xlsx的互换.md)
 - [DLNA软件](blog/2019-09-16-DLNA.md)
 - [管理copr](blog/2019-09-12-dnf-copr.md)
 - [安装quake3](blog/2019-09-12-quake3.md)
 
-###05
+### 05
 - [Switch_Pro手柄](blog/2019-05-04-Switch_Pro手柄.md)
 - [爬小说](blog/2019-05-16-爬虫爬小说.md)
 
-###04
+### 04
 - [安装rime输入法](blog/2019-04-15-中州韵.md)
 - [手动解决fedora包冲突](blog/2019-04-09-包冲突导致游戏不运行.md)
 - [测试hugo](blog/2019-04-08-测试hugo.md)

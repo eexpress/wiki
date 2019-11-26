@@ -3,6 +3,7 @@
 ## 2019年
 
 ### 11
+- [findbook搁置](blog/2019-11-26-findbook.md)
 - [编辑器geany](blog/2019-11-12-geany.md)
 - [编辑器gedit](blog/2019-11-12-gedit.md)
 - [游戏疑问](blog/2019-11-03-游戏疑问.md)

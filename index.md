@@ -2,6 +2,10 @@
 
 ## 2019年
 
+
+### 12
+- [vala调用模块](2019-12-1-vala调用模块.md)
+
 ### 11
 - [findbook搁置](blog/2019-11-26-findbook搁置.md)
 - [编辑器geany](blog/2019-11-12-geany.md)

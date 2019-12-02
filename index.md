@@ -4,7 +4,7 @@
 
 
 ### 12
-- [vala调用模块](2019-12-1-vala调用模块.md)
+- [vala调用模块](blog/2019-12-1-vala调用模块.md)
 
 ### 11
 - [findbook搁置](blog/2019-11-26-findbook搁置.md)

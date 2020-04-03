@@ -2,8 +2,11 @@
 
 ## 2020年
 
+### 4
+- [grub制作多启动安装盘](blog/2020-04-03-grub制作多启动安装盘.md)
+
 ### 3
-- [win10下恢复refind启动](blog/2020-03-12-win10下恢复refind启动.md)
+- [deepin不关机](blog/2020-04-03-deepin不关机.md)
 
 ### 1
 - [samba到路由器](blog/2020-01-23-samba到路由器.md)

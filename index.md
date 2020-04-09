@@ -3,6 +3,8 @@
 ## 2020年
 
 ### 4
+- [grub主题](blog/2020-04-06-grub主题.md)
+- [Elementary OS 安装](blog/2020-04-06-EOS安装.md)
 - [grub制作多启动安装盘](blog/2020-04-03-grub制作多启动安装盘.md)
 
 ### 3

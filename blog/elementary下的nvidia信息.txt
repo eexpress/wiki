@@ -1,0 +1,99 @@
+#	--------▶  2020-04-14_16:34:27 ◀ --------
+
+⭕ ubuntu-drivers devices
+== /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
+modalias : pci:v000010DEd00001C8Csv000017AAsd000039D0bc03sc02i00
+vendor   : NVIDIA Corporation
+model    : GP107M [GeForce GTX 1050 Ti Mobile]
+driver   : nvidia-driver-430 - distro non-free
+driver   : nvidia-driver-435 - distro non-free recommended
+driver   : nvidia-driver-390 - distro non-free
+driver   : xserver-xorg-video-nouveau - distro free builtin
+
+== /sys/devices/pci0000:00/0000:00:14.0/usb1/1-11/1-11:1.1 ==
+modalias : usb:v0BDAp0821d0200dcE0dsc01dp01icE0isc01ip01in01
+vendor   : Realtek Semiconductor Corp.
+driver   : rtl8812au-dkms - distro free
+
+
+#	--------▶  2020-04-14_16:34:38 ◀ --------
+
+⭕ nvidia-smi
+Tue Apr 14 16:34:32 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 430.50       Driver Version: 430.50       CUDA Version: 10.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 105...  Off  | 00000000:01:00.0 Off |                  N/A |
+| N/A   39C    P3    N/A /  N/A |    211MiB /  4042MiB |      5%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0       799      G   /usr/lib/xorg/Xorg                           107MiB |
+|    0      1318      G   gala                                         103MiB |
++-----------------------------------------------------------------------------+
+
+
+#	--------▶  2020-04-14_16:34:51 ◀ --------
+
+⭕ lshw -c video | grep 'configuration'
+WARNING: you should run this program as super-user.
+       configuration: driver=nvidia latency=0
+       configuration: driver=i915 latency=0
+WARNING: output may be incomplete or inaccurate, you should run this program as super-user.
+
+
+#	--------▶  2020-04-14_16:35:00 ◀ --------
+
+⭕ l /var/lib/dkms/nvidia/
+430.50  kernel-4.15.0-96-generic-x86_64
+
+
+#	--------▶  2020-04-14_16:45:12 ◀ --------
+
+⭕ glxinfo|g "OpenGL renderer"
+OpenGL renderer string: GeForce GTX 1050 Ti/PCIe/SSE2
+
+
+#	--------▶  2020-04-14_16:45:36 ◀ --------
+
+⭕ glxgears 
+Running synchronized to the vertical refresh.  The framerate should be
+approximately the same as the monitor refresh rate.
+312 frames in 5.0 seconds = 62.256 FPS
+301 frames in 5.0 seconds = 60.020 FPS
+
+
+#	--------▶  2020-04-14_16:46:09 ◀ --------
+
+⭕ glxspheres64
+glxspheres64：未找到命令
+
+
+#	--------▶  2020-04-14_16:46:51 ◀ --------
+
+⭕ prime-select query
+nvidia
+
+
+#	--------▶  2020-04-14_16:47:42 ◀ --------
+
+⭕ __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears
+98850 frames in 5.0 seconds = 19769.863 FPS
+102533 frames in 5.0 seconds = 20506.424 FPS
+
+
+#	--------▶  2020-04-15_16:17:00 ◀ --------
+
+⭕ __GL_SYNC_TO_VBLANK=0 vblank_mode=0 glxgears
+99994 frames in 5.0 seconds = 19998.785 FPS
+100327 frames in 5.0 seconds = 20065.236 FPS
+101250 frames in 5.0 seconds = 20249.818 FPS
+101234 frames in 5.0 seconds = 20246.781 FPS
+
+

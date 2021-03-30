@@ -1,0 +1,55 @@
+#	--------▶  2020-11-09_23:55:01 ◀ --------
+
+⭕ glmark2
+=======================================================
+    glmark2 2014.03+git20150611.fa71af2d
+=======================================================
+    OpenGL Information
+    GL_VENDOR:     NVIDIA Corporation
+    GL_RENDERER:   GeForce GTX 1050 Ti/PCIe/SSE2
+    GL_VERSION:    4.6.0 NVIDIA 450.80.02
+=======================================================
+[build] use-vbo=false: FPS: 5137 FrameTime: 0.195 ms
+[build] use-vbo=true: FPS: 11726 FrameTime: 0.085 ms
+[texture] texture-filter=nearest: FP····福克斯的93 FrameTime: 0.093 ms
+[texture] texture-filter=linear: FPS: 10895 FrameTime: 0.092 ms
+[texture] texture-filter=mipmap: FPS: 10980 FrameTime: 0.091 ms
+[shading] shading=gouraud: FPS: 10343 FrameTime: 0.097 ms
+[shading] shading=blinn-phong-inf: FPS: 10178 FrameTime: 0.098 ms
+[shading] shading=phong: FPS: 9667 FrameTime: 0.103 ms
+[shading] shading=cel: FPS: 9694 FrameTime: 0.103 ms
+[bump] bump-render=high-poly: FPS: 7016 FrameTime: 0.143 ms
+[bump] bump-render=normals: FPS: 12113 FrameTime: 0.083 ms
+[bump] bump-render=height: FPS: 12064 FrameTime: 0.083 ms
+[effect2d] kernel=0,1,0;1,-4,1;0,1,0;: FPS: 8435 FrameTime: 0.119 ms
+[effect2d] kernel=1,1,1,1,1;1,1,1,1,1;1,1,1,1,1;: FPS: 5064 FrameTime: 0.197 ms
+[pulsar] light=false:quads=5:texture=false: FPS: 11442 FrameTime: 0.087 ms
+[desktop] blur-radius=5:effect=blur:passes=1:separable=true:windows=4: FPS: 3527 FrameTime: 0.284 ms
+[desktop] effect=shadow:windows=4: FPS: 6257 FrameTime: 0.160 ms
+[buffer] columns=200:interleave=false:update-dispersion=0.9:update-fraction=0.5:update-method=map: FPS: 1014 FrameTime: 0.986 ms
+[buffer] columns=200:interleave=false:update-dispersion=0.9:update-fraction=0.5:update-method=subdata: FPS: 1227 FrameTime: 0.815 ms
+[buffer] columns=200:interleave=true:update-dispersion=0.9:update-fraction=0.5:update-method=map: FPS: 1104 FrameTime: 0.906 ms
+[ideas] speed=duration: FPS: 8871 FrameTime: 0.113 ms
+[jellyfish] <default>: FPS: 7355 FrameTime: 0.136 ms
+[terrain] <default>: FPS: 744 FrameTime: 1.344 ms
+[shadow] <default>: FPS: 7253 FrameTime: 0.138 ms
+[refract] <default>: FPS: 2171 FrameTime: 0.461 ms
+[conditionals] fragment-steps=0:vertex-steps=0: FPS: 11228 FrameTime: 0.089 ms
+[conditionals] fragment-steps=5:vertex-steps=0: FPS: 10564 FrameTime: 0.095 ms
+[conditionals] fragment-steps=0:vertex-steps=5: FPS: 11171 FrameTime: 0.090 ms
+[function] fragment-complexity=low:fragment-steps=5: FPS: 10916 FrameTime: 0.092 ms
+[function] fragment-complexity=medium:fragment-steps=5: FPS: 10177 FrameTime: 0.098 ms
+[loop] fragment-loop=false:fragment-steps=5:vertex-steps=5: FPS: 10686 FrameTime: 0.094 ms
+[loop] fragment-steps=5:fragment-uniform=false:vertex-steps=5: FPS: 10820 FrameTime: 0.092 ms
+[loop] fragment-steps=5:fragment-uniform=true:vertex-steps=5: FPS: 10356 FrameTime: 0.097 ms
+=======================================================
+                                  glmark2 Score: 8211
+=======================================================
+
+
+#	--------▶  2020-11-09_23:55:38 ◀ --------
+
+⭕ nvidia-smi -L
+GPU 0: GeForce GTX 1050 Ti (UUID: GPU-b88604f6-d863-37ce-3b9d-e86506aa5e92)
+
+

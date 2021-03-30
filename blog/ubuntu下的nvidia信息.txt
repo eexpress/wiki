@@ -1,0 +1,60 @@
+#	--------▶  2020-04-14_16:07:27 ◀ --------
+
+
+
+#	--------▶  2020-04-14_16:08:00 ◀ --------
+
+⭕ ubuntu-drivers devices
+== /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
+modalias : pci:v000010DEd00001C8Csv000017AAsd000039D0bc03sc02i00
+vendor   : NVIDIA Corporation
+model    : GP107M [GeForce GTX 1050 Ti Mobile]
+driver   : nvidia-driver-435 - distro non-free
+driver   : nvidia-driver-440 - distro non-free recommended
+driver   : nvidia-driver-390 - distro non-free
+driver   : xserver-xorg-video-nouveau - distro free builtin
+
+== /sys/devices/pci0000:00/0000:00:14.0/usb1/1-11/1-11:1.1 ==
+modalias : usb:v0BDAp0821d0200dcE0dsc01dp01icE0isc01ip01in01
+vendor   : Realtek Semiconductor Corp.
+driver   : rtl8812au-dkms - distro free
+
+
+#	--------▶  2020-04-14_16:08:09 ◀ --------
+
+⭕ nvidia-smi
+Tue Apr 14 16:06:03 2020       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.64       Driver Version: 440.64       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce GTX 105...  Off  | 00000000:01:00.0 Off |                  N/A |
+| N/A   35C    P3    N/A /  N/A |    169MiB /  4042MiB |      1%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0       995      G   /usr/lib/xorg/Xorg                            82MiB |
+|    0      1501      G   /usr/bin/gnome-shell                          85MiB |
++-----------------------------------------------------------------------------+
+
+
+#	--------▶  2020-04-14_16:09:23 ◀ --------
+
+⭕ lshw -c video | grep 'configuration'
+WARNING: you should run this program as super-user.
+       configuration: driver=nvidia latency=0
+       configuration: driver=i915 latency=0
+WARNING: output may be incomplete or inaccurate, you should run this program as super-user.
+
+
+#	--------▶  2020-04-14_16:11:55 ◀ --------
+
+⭕ l /var/lib/dkms/nvidia/
+440.64  kernel-5.4.0-21-generic-x86_64
+
+
